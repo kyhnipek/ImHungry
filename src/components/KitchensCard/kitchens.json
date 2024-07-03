@@ -1,0 +1,191 @@
+[{
+    "id": "american_restaurant",
+    "title": "American Restaurant",
+    "image": "usa"
+  },
+  {
+    "id": "bakery",
+    "title": "Bakery",
+    "image": "bakery"
+  },
+  {
+    "id": "bar",
+    "title": "Bar",
+    "image": "bar"
+  },
+  {
+    "id": "barbecue_restaurant",
+    "title": "Barbecue Restaurant",
+    "image": "barbecue"
+  },
+  {
+    "id": "brazilian_restaurant",
+    "title": "Brazilian Restaurant",
+    "image": "brazil"
+  },
+  {
+    "id": "breakfast_restaurant",
+    "title": "Breakfast Restaurant",
+    "image": "breakfast"
+  },
+  {
+    "id": "brunch_restaurant",
+    "title": "Brunch Restaurant",
+    "image": "brunch"
+  },
+  {
+    "id": "cafe",
+    "title": "Cafe",
+    "image": "cafe"
+  },
+  {
+    "id": "chinese_restaurant",
+    "title": "Chinese Restaurant",
+    "image": "china"
+  },
+  {
+    "id": "coffee_shop",
+    "title": "Coffee Shop",
+    "image": "coffee"
+  },
+  {
+    "id": "fast_food_restaurant",
+    "title": "Fast Food Restaurant",
+    "image": "fastfood"
+  },
+  {
+    "id": "french_restaurant",
+    "title": "French Restaurant",
+    "image": "france"
+  },
+  {
+    "id": "greek_restaurant",
+    "title": "Greek Restaurant",
+    "image": "greece"
+  },
+  {
+    "id": "hamburger_restaurant",
+    "title": "Hamburger Restaurant",
+    "image": "hamburger"
+  },
+  {
+    "id": "ice_cream_shop",
+    "title": "Ice Cream Shop",
+    "image": "icecream"
+  },
+  {
+    "id": "indian_restaurant",
+    "title": "Indian Restaurant",
+    "image": "india"
+  },
+  {
+    "id": "indonesian_restaurant",
+    "title": "Indonesian Restaurant",
+    "image": "indonesia"
+  },
+  {
+    "id": "italian_restaurant",
+    "title": "Italian Restaurant",
+    "image": "italy"
+  },
+  {
+    "id": "japanese_restaurant",
+    "title": "Japanese Restaurant",
+    "image": "japan"
+  },
+  {
+    "id": "korean_restaurant",
+    "title": "Korean Restaurant",
+    "image": "korea"
+  },
+  {
+    "id": "lebanese_restaurant",
+    "title": "Lebanese Restaurant",
+    "image": "lebanon"
+  },
+  {
+    "id": "meal_delivery",
+    "title": "Meal Delivery",
+    "image": "delivery"
+  },
+  {
+    "id": "meal_takeaway",
+    "title": "Meal Takeaway",
+    "image": "takeaway"
+  },
+  {
+    "id": "mediterranean_restaurant",
+    "title": "Mediterranean Restaurant",
+    "image": "mediterranean"
+  },
+  {
+    "id": "mexican_restaurant",
+    "title": "Mexican Restaurant",
+    "image": "mexico"
+  },
+  {
+    "id": "middle_eastern_restaurant",
+    "title": "Middle Eastern Restaurant",
+    "image": "middle"
+  },
+  {
+    "id": "pizza_restaurant",
+    "title": "Pizza Restaurant",
+    "image": "pizza"
+  },
+  {
+    "id": "ramen_restaurant",
+    "title": "Ramen Restaurant",
+    "image": "ramen"
+  },
+  {
+    "id": "sandwich_shop",
+    "title": "Sandwich Shop",
+    "image": "sandwich"
+  },
+  {
+    "id": "seafood_restaurant",
+    "title": "Seafood Restaurant",
+    "image": "seafood"
+  },
+  {
+    "id": "spanish_restaurant",
+    "title": "Spanish Restaurant",
+    "image": "spain"
+  },
+  {
+    "id": "steak_house",
+    "title": "Steak House",
+    "image": "steakhouse"
+  },
+  {
+    "id": "sushi_restaurant",
+    "title": "Sushi Restaurant",
+    "image": "sushi"
+  },
+  {
+    "id": "thai_restaurant",
+    "title": "Thai Restaurant",
+    "image": "thailand"
+  },
+  {
+    "id": "turkish_restaurant",
+    "title": "Turkish Restaurant",
+    "image": "turkish"
+  },
+  {
+    "id": "vegan_restaurant",
+    "title": "Vegan Restaurant",
+    "image": "vegan"
+  },
+  {
+    "id": "vegetarian_restaurant",
+    "title": "Vegetarian Restaurant",
+    "image": "vegetarian"
+  },
+  {
+    "id": "vietnamese_restaurant",
+    "title": "Vietnamese Restaurant",
+    "image": "vietnam"
+  }
+]
