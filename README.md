@@ -1,5 +1,9 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+# ScreenShot
+
+![ImHungry App](src/assets/screenshot.png)
+
 # Getting Started
 
 > **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
@@ -20,11 +24,13 @@ yarn start
 
 ## Step 2: Start your Application
 
-set google places API_KEY from /src/FetchData.js
+Set google places API_KEY from /src/FetchData.js
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
 ### For Android
+
+You need to set Google Maps API_KEY from "/android/app/src/main/AndroidManifest.xml" to make it work properly on android devices.
 
 ```bash
 # using npm
