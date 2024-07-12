@@ -1,7 +1,7 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXX'; // Enter your Google Places API_KEY here
+const API_KEY = 'Enter your Google Places API_KEY here '; // Enter your Google Places API_KEY here
 
 const FetchPhotos = async photoUri => {
   try {
@@ -19,7 +19,7 @@ const FetchPhotos = async photoUri => {
   }
 };
 
-const FetchRestaurants = async (lat, lng, type) => {
+const FetchRestaurants = async (lat, lng, type, range) => {
   try {
     const response = await fetch(
       'https://places.googleapis.com/v1/places:searchNearby',
@@ -41,7 +41,7 @@ const FetchRestaurants = async (lat, lng, type) => {
                 latitude: lat,
                 longitude: lng,
               },
-              radius: 7500.0,
+              radius: range,
             },
           },
         }),

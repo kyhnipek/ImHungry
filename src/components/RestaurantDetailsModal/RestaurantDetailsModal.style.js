@@ -1,10 +1,10 @@
-import {StyleSheet} from 'react-native';
+import {Dimensions, StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
 
-    justifyContent: 'flex-end',
+    justifyContent: 'center',
     margin: 10,
     marginTop: 35,
   },
@@ -33,6 +33,17 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginBottom: 10,
   },
+  reviews: {
+    backgroundColor: 'white',
+    padding: 10,
+    justifyContent: 'space-evenly',
+    borderRadius: 10,
+    marginBottom: 10,
+    height: Dimensions.get('window').height / 2,
+    overflow: 'hidden',
+    elevation: 5,
+  },
+  reviewContainer: {},
   favorite: {
     backgroundColor: 'red',
     padding: 10,
@@ -82,6 +93,28 @@ const styles = StyleSheet.create({
     color: 'white',
     fontWeight: 'bold',
     alignSelf: 'center',
+  },
+  buttons: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+  },
+  topMenu: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+  },
+  reviewButtons: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    position: 'absolute',
+    bottom: 10,
+    left: Dimensions.get('window').width / 3 - 20,
+  },
+  topMenuText: {
+    margin: 5,
+  },
+  selectedTab: {
+    fontWeight: 'bold',
   },
 });
 export default styles;

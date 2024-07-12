@@ -7,6 +7,7 @@ import styles from './Nearby.style';
 import RestaurantDetailsModal from '../../components/RestaurantDetailsModal';
 import {FetchRestaurants} from '../../FetchData';
 import KitchensCard from '../../components/KitchensCard';
+import {hasLocationPermission} from '../../utils';
 
 navigator.geolocation = require('react-native-geolocation-service');
 
@@ -22,8 +23,12 @@ const App = ({navigation}) => {
   const [restaurantData, setRestaurantData] = useState(null);
 
   useEffect(() => {
-    const getLoc = () => {
-      Geolocation.requestAuthorization('whenInUse');
+    const getLoc = async () => {
+      const hasPermission = await hasLocationPermission();
+
+      if (!hasPermission) {
+        return;
+      }
       Geolocation.getCurrentPosition(
         position => {
           setLatitude(position.coords.latitude);
@@ -36,12 +41,15 @@ const App = ({navigation}) => {
       );
     };
     getLoc();
+    // setLatitude(lat);
+    // setLongitude(lng);
 
     const fetchAllRestaurants = async () => {
       const fetchedRestaurants = await FetchRestaurants(
         latitude,
         longitude,
         restType,
+        5000,
       );
       setData(fetchedRestaurants);
     };
